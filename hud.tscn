@@ -1,0 +1,110 @@
+[gd_scene format=3 uid="uid://drj4ahf0nhxrg"]
+
+[ext_resource type="Texture2D" uid="uid://d3sf8lsww3pv3" path="res://assets/GUI/animated_items.png" id="1_64ctp"]
+[ext_resource type="FontFile" uid="uid://dr2saktt1vv7a" path="res://font/NicoFontPack-v1.0/Base Font Files/NicoPups/NicoPups-Monospaced.ttf" id="2_8sq4i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_640wx"]
+atlas = ExtResource("1_64ctp")
+region = Rect2(0, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a2258"]
+atlas = ExtResource("1_64ctp")
+region = Rect2(32, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1xsix"]
+atlas = ExtResource("1_64ctp")
+region = Rect2(64, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rftc2"]
+atlas = ExtResource("1_64ctp")
+region = Rect2(96, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_61f8s"]
+atlas = ExtResource("1_64ctp")
+region = Rect2(128, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g10ll"]
+atlas = ExtResource("1_64ctp")
+region = Rect2(160, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gpiub"]
+atlas = ExtResource("1_64ctp")
+region = Rect2(192, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_amv7k"]
+atlas = ExtResource("1_64ctp")
+region = Rect2(224, 192, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_32t5u"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_640wx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a2258")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1xsix")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rftc2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_61f8s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g10ll")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gpiub")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_amv7k")
+}],
+"loop": 1,
+"name": &"ruby_animated",
+"speed": 7.0
+}]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=18595931]
+
+[node name="control" type="Control" parent="." unique_id=1012132127]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="container" type="MarginContainer" parent="control" unique_id=960738851]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 10
+
+[node name="runa_container" type="HBoxContainer" parent="control/container" unique_id=677013640]
+layout_mode = 2
+
+[node name="anim" type="AnimatedSprite2D" parent="control/container/runa_container" unique_id=428720875]
+position = Vector2(-23.250004, 18.499996)
+scale = Vector2(1.734375, 1.6562498)
+sprite_frames = SubResource("SpriteFrames_32t5u")
+animation = &"ruby_animated"
+autoplay = "ruby_animated"
+frame_progress = 0.74758446
+
+[node name="contador" type="Label" parent="control/container/runa_container" unique_id=401924379]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("2_8sq4i")
+theme_override_font_sizes/font_size = 34
+text = "0000"

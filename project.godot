@@ -14,6 +14,10 @@ config/name="oMapaPerdido"
 run/main_scene="uid://vl0q3xti5up5"
 config/features=PackedStringArray("4.7", "Forward Plus")
 
+[autoload]
+
+Globals="*uid://c7k0osc7sbv6g"
+
 [display]
 
 window/stretch/mode="canvas_items"

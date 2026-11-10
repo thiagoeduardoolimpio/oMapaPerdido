@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://iw55w64i4dgx"
+path="res://.godot/imported/PaintBasic.fnt-9f1714d323436c219cab3c908730b341.fontdata"
+
+[deps]
+
+source_file="res://font/NicoFontPack-v1.0/Bitmap Fonts/9. PaintBasic/BMFont XML/PaintBasic.fnt"
+dest_files=["res://.godot/imported/PaintBasic.fnt-9f1714d323436c219cab3c908730b341.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

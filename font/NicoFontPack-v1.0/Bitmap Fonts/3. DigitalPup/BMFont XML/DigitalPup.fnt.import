@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://bi2oegcxnww72"
+path="res://.godot/imported/DigitalPup.fnt-9da23b5c7a5407f624f826904cdefc2d.fontdata"
+
+[deps]
+
+source_file="res://font/NicoFontPack-v1.0/Bitmap Fonts/3. DigitalPup/BMFont XML/DigitalPup.fnt"
+dest_files=["res://.godot/imported/DigitalPup.fnt-9da23b5c7a5407f624f826904cdefc2d.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

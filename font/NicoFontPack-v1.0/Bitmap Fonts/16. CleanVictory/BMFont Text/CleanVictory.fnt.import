@@ -1,0 +1,16 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://c3eo4q7j321ol"
+valid=false
+
+[deps]
+
+source_file="res://font/NicoFontPack-v1.0/Bitmap Fonts/16. CleanVictory/BMFont Text/CleanVictory.fnt"
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2
