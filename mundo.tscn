@@ -566,7 +566,7 @@ shape = SubResource("RectangleShape2D_32t5u")
 position = Vector2(1, 9)
 sprite_frames = SubResource("SpriteFrames_igqbq")
 animation = &"walk_right"
-frame_progress = 0.9545278
+frame_progress = 0.2431065
 
 [node name="chao" type="TileMapLayer" parent="." unique_id=1057530683]
 tile_set = SubResource("TileSet_32t5u")

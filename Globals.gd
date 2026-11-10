@@ -1,4 +1,4 @@
 extends Node
 
 
-var runas := 0
+var gemas := 0
