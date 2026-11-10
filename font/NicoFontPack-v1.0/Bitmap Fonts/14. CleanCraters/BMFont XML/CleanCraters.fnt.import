@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://cas40msxaka6x"
+path="res://.godot/imported/CleanCraters.fnt-5a6ec24d4af7deb91efa6b99f3c9d053.fontdata"
+
+[deps]
+
+source_file="res://font/NicoFontPack-v1.0/Bitmap Fonts/14. CleanCraters/BMFont XML/CleanCraters.fnt"
+dest_files=["res://.godot/imported/CleanCraters.fnt-5a6ec24d4af7deb91efa6b99f3c9d053.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

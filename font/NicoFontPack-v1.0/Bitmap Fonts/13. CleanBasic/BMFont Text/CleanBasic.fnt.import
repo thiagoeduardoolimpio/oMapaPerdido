@@ -1,0 +1,16 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://u0dgjf3qry15"
+valid=false
+
+[deps]
+
+source_file="res://font/NicoFontPack-v1.0/Bitmap Fonts/13. CleanBasic/BMFont Text/CleanBasic.fnt"
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

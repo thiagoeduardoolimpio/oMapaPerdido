@@ -1,0 +1,16 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://cgjpsu0n155x2"
+valid=false
+
+[deps]
+
+source_file="res://font/NicoFontPack-v1.0/Bitmap Fonts/2. BasicPupWhite/BMFont Binary/BasicPupWhite.fnt"
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2
